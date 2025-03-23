@@ -14,11 +14,11 @@ body {
 
 a {
   text-decoration: none;
-  color: #7a47e7;
+  color: #000000;
 }
 
 a:hover {
-  color: rgb(207, 48, 101);
+  color: rgb(255, 102, 8);
 }
 
 .site-header {
@@ -26,7 +26,7 @@ a:hover {
   padding: 0.5em 1em;
   display: flex;
   justify-content: space-between;
-  background-color: black;
+  background-color: rgb(255, 255, 255);
 }
 
 .site-identity h1 {
@@ -55,6 +55,53 @@ a:hover {
   text-align: center;
   color: red;
   /* background-image: linear-gradient(to bottom right, rgb(235, 241, 149), rgb(245, 235, 105)); */
+}
+.slider {
+  position: relative;
+  width: 100%;
+  max-width: 800px;
+  margin: auto;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.slides {
+  display: flex;
+  transition: transform 1s ease;
+}
+
+.slide {
+  min-width: 100%;
+  transition: opacity 1s ease-in-out;
+}
+
+.slide img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.navigation {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  transform: translateY(-50%);
+}
+
+button {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+button:hover {
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 .first2 {
@@ -399,7 +446,7 @@ ul{
     list-style: none;
 }
 .footer{
-    background-color: #24262b;
+    background-color: #ffffff;
     padding: 70px 0;
 }
 .footer-col{
@@ -408,7 +455,7 @@ ul{
 }
 .footer-col h4{
     font-size: 18px;
-    color: #ffffff;
+    color: #000000;
     text-transform: capitalize;
     margin-bottom: 35px;
     font-weight: 500;
@@ -430,22 +477,22 @@ ul{
 .footer-col ul li a{
     font-size: 16px;
     text-transform: capitalize;
-    color: #ffffff;
+    color: #000000;
     text-decoration: none;
     font-weight: 300;
-    color: #bbbbbb;
+    color: #000000;
     display: block;
     transition: all 0.3s ease;
 }
 .footer-col ul li a:hover{
-    color: #ffffff;
+    color: #f24303;
     padding-left: 8px;
 }
 .footer-col .social-links a{
     display: inline-block;
     height: 40px;
     width: 40px;
-    background-color: rgba(255,255,255,0.2);
+    background-color: rgba(0, 0, 0, 0.2);
     margin:0 10px 10px 0;
     text-align: center;
     line-height: 40px;
@@ -454,8 +501,8 @@ ul{
     transition: all 0.5s ease;
 }
 .footer-col .social-links a:hover{
-    color: #24262b;
-    background-color: #ffffff;
+    color: #ffffff;
+    background-color: #000000;
 
 }
 
@@ -483,6 +530,21 @@ body {
   body {
       color: yellow;
   }
+}
+
+
+.fa-facebook-f::before {
+  line-height: 40px;
+}
+
+.fa-twitter::before {
+  line-height: 40px;
+}
+.fa-instagram::before{
+  line-height: 40px ;
+}
+.fa-linkedin-in::before{
+  line-height: 40px;
 }
 
 

@@ -9,15 +9,16 @@
 body {
     font-family: "Open Sans", sans-serif;
     margin: 0;
+    background-color: #fff9eb;
 }
 
 a {
     text-decoration: none;
-    color: #ffffff;
+    color: #000000;
 }
 
 a:hover {
-    color: rgb(179, 179, 179);
+    color: rgb(255, 102, 8);
 }
 
 .site-header {
@@ -25,7 +26,7 @@ a:hover {
     padding: 0.5em 1em;
     display: flex;
     justify-content: space-between;
-    background-color: black;
+    background-color: rgb(255, 255, 255);
 }
 
 .site-identity h1 {
@@ -68,7 +69,7 @@ a:hover {
     display: flex;
     justify-content: left;
     margin-left: 70px;
-    color: white;
+    color: rgb(0, 0, 0);
 
 }
 
@@ -86,7 +87,7 @@ a:hover {
 }
 
 .talk {
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 * {
@@ -95,6 +96,7 @@ a:hover {
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
 }
+
 .container {
     max-width: 400px;
     width: 100%;
@@ -299,7 +301,7 @@ ul {
 }
 
 .footer {
-    background-color: #24262b;
+    background-color: #ffffff;
     padding: 70px 0;
 }
 
@@ -310,12 +312,11 @@ ul {
 
 .footer-col h4 {
     font-size: 18px;
-    color: #ffffff;
+    color: #000000;
     text-transform: capitalize;
     margin-bottom: 35px;
     font-weight: 500;
     position: relative;
-
 }
 
 .footer-col h4::before {
@@ -336,16 +337,16 @@ ul {
 .footer-col ul li a {
     font-size: 16px;
     text-transform: capitalize;
-    color: #ffffff;
+    color: #000000;
     text-decoration: none;
     font-weight: 300;
-    color: #bbbbbb;
+    color: #000000;
     display: block;
     transition: all 0.3s ease;
 }
 
 .footer-col ul li a:hover {
-    color: #ffffff;
+    color: #f24303;
     padding-left: 8px;
 }
 
@@ -353,7 +354,7 @@ ul {
     display: inline-block;
     height: 40px;
     width: 40px;
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: rgba(0, 0, 0, 0.2);
     margin: 0 10px 10px 0;
     text-align: center;
     line-height: 40px;
@@ -363,8 +364,9 @@ ul {
 }
 
 .footer-col .social-links a:hover {
-    color: #24262b;
-    background-color: #ffffff;
+    color: #ffffff;
+    background-color: #000000;
+
 }
 
 /*responsive*/
@@ -386,4 +388,20 @@ ul {
     color: rgb(255, 16, 16);
 
     line-height: 1.5;
+}
+
+.fa-facebook-f::before {
+    line-height: 40px;
+}
+
+.fa-twitter::before {
+    line-height: 40px;
+}
+
+.fa-instagram::before {
+    line-height: 40px;
+}
+
+.fa-linkedin-in::before {
+    line-height: 40px;
 }

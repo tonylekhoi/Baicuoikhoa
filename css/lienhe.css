@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+a {
+  text-decoration: none;
+  color: #7a47e7;
+}
+
+a:hover {
+  color: rgb(207, 48, 101);
+}
+
+.site-header {
+  border-bottom: 1px solid #ccc;
+  padding: 0.5em 1em;
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+}
+
+.site-identity h1 {
+  font-size: 1.5em;
+  margin: 0.6em 0;
+  display: inline-block;
+}
+
+.site-navigation ul,
+.site-navigation li {
+  margin: 0;
+  padding: 0;
+}
+
+.site-navigation li {
+  display: inline-block;
+  margin: 1.4em 1em 1em 1em;
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5dc;
+}
+
+.contact-info {
+  background-color: #e0d7b6;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 800px;
+  border-radius: 8px;
+}
+
+.contact-info h2, .contact-info p, .contact-info h3 {
+  margin: 8px 0;
+}
+.floating-buttons {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.floating-buttons button {
+  padding: 10px;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.zalo {
+  background-color: #4caf50;
+}
+
+.facebook {
+  background-color: #1c72d6;
+}
+
+.hotline {
+  background-color: #d9534f;
+}
