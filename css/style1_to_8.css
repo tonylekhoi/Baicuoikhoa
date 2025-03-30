@@ -388,7 +388,9 @@ ul {
 
     line-height: 1.5;
 }
-
+.buy:hover {
+    cursor: pointer;
+  }
 .fa-facebook-f::before {
     line-height: 40px;
 }
