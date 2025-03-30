@@ -1,7 +1,11 @@
-document.addEventListener("DOMContentLoaded", function() {
-    const createButton = document.querySelector("button");
+function register() {
+    const username = document.getElementById("username").value;
+    const password = document.getElementById("password").value;
 
-    createButton.addEventListener("click", function() {
-        alert("Account created successfully!");
-    });
-});
+    if (username && password) {
+        alert("Đăng ký thành công!");
+        window.location.href = "./../index/login.html"; // Chuyển đến trang đăng nhập
+    } else {
+        alert("Vui lòng nhập đầy đủ thông tin!");
+    }
+}
