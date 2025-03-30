@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="./../css/lienhe.css">
 </head>
 <body>
-    <header class="site-header">
+   <header class="site-header">
         <div class="site-identity">
             <h1><a href="http://127.0.0.1:5500/index/index.html">Foodworld</a></h1>
             <img src="" alt="">
@@ -17,10 +17,34 @@
                 <li><a href="http://127.0.0.1:5500/index/index.html">Trang chủ</a></li>
                 <li><a href="#">Menu</a></li>
                 <li><a href="http://127.0.0.1:5500/index/login.html?">Đăng nhập</a></li>
-                <li><a href="http://127.0.0.1:5500/index/lienhe.html">Liên hệ</a></li>
-
+                <li><a href="http://127.0.0.1:5500/index/lienhe.html">Liên hệ</a></li>            
+                <div class="cart-icon">
+                <a href="#" id="cart-toggle">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span class="cart-count">0</span>
+                </a>
+                </div>
+            
             </ul>
+
+            <div class="cart-sidebar">
+                <div class="cart-header">
+                    <h3>Giỏ Hàng</h3>
+                    <button class="close-cart">&times;</button>
+                </div>
+                <div class="cart-items">
+                    <!-- Các sản phẩm sẽ được thêm vào đây -->
+                </div>
+                <div class="cart-footer">
+                    <div class="cart-total">
+                        <strong>Tổng cộng:</strong>
+                        <span class="total-price">0 đ</span>
+                    </div>
+                    <button class="checkout-btn">Thanh Toán</button>
+                </div>
+            </div>
         </nav>
+
     </header>
     <!-- Contact Information -->
     <div class="contact-info">

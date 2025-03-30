@@ -162,9 +162,11 @@ button:hover {
 
   line-height: 1.5;
 }
-.buy:hover{
+
+.buy:hover {
   cursor: pointer;
 }
+
 .head1 {
   display: flex;
   justify-content: center;
@@ -578,7 +580,7 @@ body {
 .cart-icon {
   position: relative;
   margin: 1.4em 1em 1em 1em;
-  display: inline-block;
+  display: inline;
 }
 
 .cart-icon a {
@@ -738,9 +740,11 @@ body {
     right: -100%;
   }
 }
-.increase-quantity{
+
+.increase-quantity {
   color: #000;
 }
-.decrease-quantity{
+
+.decrease-quantity {
   color: #000;
 }
